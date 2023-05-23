@@ -1,21 +1,10 @@
-/*style global*/
-/*font-size; font-family, color*/
+/*style Global*/
 
 body{
     font-family: 'raleway', 'Times New Roman', 'Times', sans-serif;
     text-align: justify;
-}
-
-/*style du logo*/
-.logo{
-    width:15%;
-    height:15%;
-    
-}
-
-.logo_footer{
-    width:15%;
-    height:15%;
+    margin:0;
+    padding: 0;
 }
 
 /*style des images*/
@@ -29,17 +18,40 @@ body{
 }
 
 /*style des titres*/
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*style Header*/
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width:50%;
+}
 
 .titre_principal{
-
     font-size: 34px;
     font-weight: 700;
     text-align: center;
 }
 
-/*style de la DIV contenant le titre*/
-.title{
+.menu_navigation{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: space-between;
+    padding: 2.5rem;
+}
+
+.lien_menu{
+    color: black;
+    padding-right: 1rem;
+}
+/* style footer*/
+.logo_footer{
+    width:15%;
+    height:15%;
 }
