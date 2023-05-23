@@ -1,0 +1,45 @@
+/*style global*/
+/*font-size; font-family, color*/
+
+body{
+    font-family: 'raleway', 'Times New Roman', 'Times', sans-serif;
+    text-align: justify;
+}
+
+/*style du logo*/
+.logo{
+    width:15%;
+    height:15%;
+    
+}
+
+.logo_footer{
+    width:15%;
+    height:15%;
+}
+
+/*style des images*/
+.image_accueil{
+    width:230px;
+    height:215px;
+}
+.image_fleur{
+    width: 70%;
+    height:400px;
+}
+
+/*style des titres*/
+
+.titre_principal{
+
+    font-size: 34px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/*style de la DIV contenant le titre*/
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
