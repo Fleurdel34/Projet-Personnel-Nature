@@ -5,6 +5,7 @@ body{
     text-align: justify;
     margin:0;
     padding: 0;
+    background-color: aliceblue;
 }
 
 /*style des images*/
@@ -61,15 +62,25 @@ body{
 
 /* style main*/
 .premier_paragraphe{
-    background-color:lightpink;
+    background-color:rgb(241, 216, 219);
     padding: 1.5rem;
     line-height: 25px;
+    margin: 0;
+}
+.second_paragraphe{
+    margin-top: 1.5rem;
+    background-color: rgb(191, 233, 191);
+    padding: 1.5rem;
+    line-height: 25px;
+    margin: 0;
 }
 
 .article_information{
     display: flex;
     gap:80px;
     justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 
 }
 .article_pages{
@@ -82,6 +93,10 @@ body{
 
 .aside_information{
     width:30%;
+    border: 2px solid black;
+    margin-top: 1rem;
+    background-color: darkgrey;
+    border-radius: 5px;
 }
 
 .information{
@@ -90,14 +105,46 @@ body{
     line-height: 25px;
 }
 
-.second_paragraphe{
-    margin-top: 1.5rem;
-    background-color: lightgreen;
-    padding: 1.5rem;
-    line-height: 25px;
+.p_date{
+    font-weight: 700;
 }
+
+.information a{
+    color: black;
+    font-weight: 700;
+}
+
+
 /* style footer*/
+
+footer{
+    background-color:rgb(185, 213, 238);
+    display: flex;
+    height: 280px;
+}
 .logo_footer{
-    width:15%;
-    height:15%;
+    width:50%;
+    margin-top: 1.5rem;
+}
+
+.contact h2{
+    border-bottom: 2px solid black;
+    width:22%;
+}
+
+.contact span{
+    font-weight: 700;
+}
+
+.contact a{
+    color:black;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.lien_reseaux{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.5rem;
 }
